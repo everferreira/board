@@ -7,7 +7,8 @@
 `#Java` `#JDBC` `#MySQL` `#Liquibase` `#Lombok` `#Gradle`
 
 [![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Build](https://img.shields.io/github/actions/workflow/status/everferreira/board/ci.yml?style=for-the-badge&logo=github&label=CI)](https://github.com/everferreira/board/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/everferreira/board/ci.yml?style=for-the-badge&logo=github&label=CI)](https://github.com/everferreira/board/actions)
+[![Demo Online](https://img.shields.io/badge/▶_Testar_Online-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://everferreira.github.io/board/)
 [![Stars](https://img.shields.io/github/stars/everferreira/board?style=for-the-badge&logo=github)](https://github.com/everferreira/board)
 [![Licença](https://img.shields.io/badge/licença-MIT-blue?style=for-the-badge)](LICENSE)
 

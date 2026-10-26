@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Kanban</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div id="modal-content" class="modal-content"></div>
+    </div>
+
+    <div id="app">
+        <header id="main-header">
+            <div class="header-left">
+                <h1 id="app-title">📋 Board Kanban</h1>
+                <span id="header-subtitle" class="subtitle">Gerenciador de tarefas</span>
+            </div>
+            <div class="header-right">
+                <span id="board-name-header" class="board-name-header hidden"></span>
+                <button id="btn-back" class="btn btn-secondary hidden" onclick="goHome()">← Voltar</button>
+            </div>
+        </header>
+
+        <main id="home-view" class="view">
+            <div class="home-container">
+                <div class="home-actions">
+                    <button class="btn btn-primary btn-large" onclick="showCreateBoardModal()">
+                        ➕ Novo Board
+                    </button>
+                </div>
+                <div id="board-list" class="board-list"></div>
+            </div>
+            <p class="home-footer">
+                <span class="badge-initial">Inicial</span>
+                <span class="badge-pending">Pendente</span>
+                <span class="badge-final">Final</span>
+                <span class="badge-cancel">Cancelado</span>
+            </p>
+        </main>
+
+        <main id="board-view" class="view hidden">
+            <div id="column-container" class="column-container"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
